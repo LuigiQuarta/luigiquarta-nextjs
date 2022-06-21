@@ -1,10 +1,12 @@
 import type { NextPage } from 'next'
 
+import Page from "../src/components-layout/Page";
+
 import styles from '../styles/Home.module.scss'
 
 const Home: NextPage = () => {
   return (
-    <>Home</>
+    <Page>Home</Page>
   )
 }
 
