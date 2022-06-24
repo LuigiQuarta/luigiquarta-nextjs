@@ -21,3 +21,16 @@
   background: var(--primaryColor);
   border-color: var(--primaryColor);
 }
+
+
+@media print {
+  .dot {
+    background: unset;
+    border: 1px solid var(--printColor);
+  }
+
+  .activeDot {
+    background: var(--printColor);
+    border-color: var(--printColor);
+  }
+}
