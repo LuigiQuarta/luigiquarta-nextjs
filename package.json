@@ -1,7 +1,7 @@
 {
   "name": "luigiquarta",
-  "version": "0.1.0",
-  "codeName": "",
+  "version": "1.0.0",
+  "codeName": "Tatooine",
   "private": true,
   "scripts": {
     "dev": "next dev",
