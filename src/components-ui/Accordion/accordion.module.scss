@@ -1,0 +1,22 @@
+.itemHeader {
+  display: flex;
+  flex-direction: row;
+
+  & > div:first-child {
+    color: var(--primaryColor);
+    margin-right: 1rem;
+  }
+}
+
+.accordionItem {
+  & > div:last-child {
+    height: 0;
+    display: none;
+  }
+}
+.selected {
+  & > div:last-child {
+    height: unset;
+    display: unset;
+  }
+}

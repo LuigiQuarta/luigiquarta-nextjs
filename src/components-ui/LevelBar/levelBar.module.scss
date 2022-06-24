@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.levelBarContainer {
+  background: var(--secondaryColor);
+  height: 0.9rem;
+}
+
+.textInfo {
+  display: flex;
+  flex-direction: row;
+  font-size: small;
+  margin: 0 0.21rem 0.1rem 0.21rem;
+}
+
+.label {
+  flex-grow: 1;
+}
+
+.levelPercentage {
+  background: var(--primaryColor);
+  height: 100%;
+}

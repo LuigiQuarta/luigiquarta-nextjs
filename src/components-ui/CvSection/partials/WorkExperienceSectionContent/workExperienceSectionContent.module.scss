@@ -1,0 +1,17 @@
+.company {
+  margin: 0;
+}
+
+.meta {
+  font-size: small;
+  color: var(--secondaryText);
+}
+.project {
+  border-left: thin solid var(--primaryColor);
+  padding-left: 0.9rem;
+  margin-bottom: 1.2rem;
+
+  div {
+    margin: 0.6rem 0;
+  }
+}

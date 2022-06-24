@@ -1,0 +1,10 @@
+.languageTitle {
+  margin: 1rem 0 0.6rem;
+}
+
+.levelsContainer {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-gap: 0.9rem;
+}

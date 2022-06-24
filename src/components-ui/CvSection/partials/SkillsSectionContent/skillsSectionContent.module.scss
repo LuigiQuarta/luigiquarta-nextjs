@@ -1,0 +1,6 @@
+.skillContainer {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-gap: 0.9rem;
+}

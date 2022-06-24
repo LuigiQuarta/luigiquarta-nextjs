@@ -1,7 +1,11 @@
+import styles from './footer.module.scss';
+
 const Footer = () => {
   return (
-    <footer>Handcrafted with love and coffee using Next.js.</footer>
-  )
+    <footer className={styles.footer}>
+      Handcrafted with ❤️ + ☕ using Next.js.
+    </footer>
+  );
 };
 
 export default Footer;

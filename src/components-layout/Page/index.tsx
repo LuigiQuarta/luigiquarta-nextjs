@@ -1,19 +1,31 @@
-import React from "react";
-import Footer from "../Footer";
-import Navigation from "../Navigation";
+import React from 'react';
+import classNames from 'classnames';
+
+import Footer from '../Footer';
+import Navigation from '../Navigation';
+
+import styles from './page.module.scss';
 
 interface PageProps {
+  centered?: boolean;
   children: React.ReactNode;
 }
 
-const Page = ({children}: PageProps) => {
+const Page = ({ centered, children }: PageProps) => {
   return (
     <>
       <Navigation />
-      <main>{children}</main>
+      <main
+        className={classNames({
+          [styles.pageMain]: true,
+          [styles.centered]: centered,
+        })}
+      >
+        {children}
+      </main>
       <Footer />
     </>
-  )
+  );
 };
 
 export default Page;

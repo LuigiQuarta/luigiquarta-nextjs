@@ -41,4 +41,3 @@ The only components who don't follow this rule are the Next.js pages.
 
 Sometimes it happens that a single component can be splitted in smaller parts to obtain a more readable code; the single parts does not have a "meaning" and cannot be used taken individually,
 so they are stored in sub-folders inside the parent component using the same structure described above.
-

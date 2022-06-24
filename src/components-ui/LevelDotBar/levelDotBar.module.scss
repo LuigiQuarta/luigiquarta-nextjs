@@ -1,0 +1,23 @@
+.label {
+  font-size: small;
+  margin: 0 0.21rem;
+}
+
+.dotsContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.dot {
+  width: 0.63rem;
+  height: 0.6rem;
+  margin: 0.3rem;
+  border-radius: 0.6rem;
+  background: var(--secondaryColor);
+  border-bottom: thin solid var(--secondaryColor);
+}
+
+.activeDot {
+  background: var(--primaryColor);
+  border-color: var(--primaryColor);
+}

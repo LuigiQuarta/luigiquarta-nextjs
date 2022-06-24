@@ -1,0 +1,42 @@
+.section {
+  header {
+    color: var(--primaryColor);
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    align-items: center;
+
+    margin-top: 2.1rem;
+    margin-bottom: 1rem;
+
+    div {
+      font-size: 1.5rem;
+    }
+
+    h3 {
+      display: inline;
+      margin: 0 0 0 0.6rem;
+      letter-spacing: 0.01rem;
+      font-weight: normal;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .section > div {
+    margin-left: calc(1.5rem + 0.6rem);
+  }
+}
+
+@media print {
+  .section {
+    & > div {
+      margin-left: calc(1.5rem + 0.6rem);
+    }
+
+    header {
+      color: var(--printColor);
+      margin-bottom: 0.6rem;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.pageMain {
+  flex: 1;
+  width: 96%;
+  margin: 0 auto;
+}
+
+.centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 1200px) {
+  .pageMain {
+    width: 72%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1760px) {
+  .pageMain {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+@media print {
+  .pageMain {
+  }
+}
