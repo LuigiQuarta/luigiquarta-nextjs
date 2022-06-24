@@ -8,6 +8,8 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <title>Luigi Quarta</title>
+        <link rel="icon" href="/favicon.ico" sizes="any"/>
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
       </Head>
       <Component {...pageProps} />
     </>
