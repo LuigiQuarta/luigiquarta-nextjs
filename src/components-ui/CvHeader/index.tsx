@@ -5,7 +5,7 @@ interface CvHeaderProps {
   title: string;
 }
 
-const CvHeader = ({name, title}: CvHeaderProps) => {
+const CvHeader = ({ name, title }: CvHeaderProps) => {
   return (
     <>
       <h1 className={styles.name}>{name}</h1>

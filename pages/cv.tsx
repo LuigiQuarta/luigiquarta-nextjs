@@ -10,7 +10,7 @@ import {
 
 import Page from '../src/components-layout/Page';
 
-import CvHeader from "../src/components-ui/CvHeader";
+import CvHeader from '../src/components-ui/CvHeader';
 import CvSection from '../src/components-ui/CvSection';
 import SkillsSectionContent from '../src/components-ui/CvSection/partials/SkillsSectionContent';
 import WorkExperienceSectionContent from '../src/components-ui/CvSection/partials/WorkExperienceSectionContent';
