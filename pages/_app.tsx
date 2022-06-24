@@ -1,9 +1,9 @@
-import React, {useEffect} from 'react';
+import React, { useEffect } from 'react';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
 
 import '../styles/globals.css';
-import {printAppInfo} from "../src/utils/appinfoUtil";
+import { printAppInfo } from '../src/utils/appinfoUtil';
 
 function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
