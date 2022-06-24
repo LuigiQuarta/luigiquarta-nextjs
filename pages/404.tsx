@@ -9,7 +9,12 @@ import styles from '../styles/404.module.scss';
 const NotFound: NextPage = () => {
   return (
     <Page centered>
-      <Image src={'/images/404.png'} width={'300'} height={'386'} alt={'404 image'} />
+      <Image
+        src={'/images/404.png'}
+        width={'300'}
+        height={'386'}
+        alt={'404 image'}
+      />
       <h1 className={styles.errorTitle}>
         &quot;These are not the droids you are looking for.&quot;
         <br />
