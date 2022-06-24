@@ -1,3 +1,5 @@
+import {Fragment} from "react";
+
 import { WorkExperience } from '../../../../declarations/cv';
 
 import styles from './workExperienceSectionContent.module.scss';
@@ -15,7 +17,7 @@ const WorkExperienceSectionContent = ({
         <>
           {workExperiences.map(
             ({ companyName, startDate, endDate, projects }) => (
-              <>
+              <Fragment key={`${companyName}-${startDate}`}>
                 <div>
                   <h3 className={styles.company}>{companyName}</h3>
                   <div className={styles.meta}>{`From ${startDate} to ${
@@ -33,7 +35,7 @@ const WorkExperienceSectionContent = ({
                     )}`}</div>
                   </div>
                 ))}
-              </>
+              </Fragment>
             ),
           )}
         </>
