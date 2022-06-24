@@ -1,0 +1,9 @@
+.name {
+  color: var(--primaryColor);
+}
+
+@media print {
+  .name {
+    color: var(--primaryText);
+  }
+}

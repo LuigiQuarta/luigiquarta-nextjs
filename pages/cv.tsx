@@ -10,6 +10,7 @@ import {
 
 import Page from '../src/components-layout/Page';
 
+import CvHeader from "../src/components-ui/CvHeader";
 import CvSection from '../src/components-ui/CvSection';
 import SkillsSectionContent from '../src/components-ui/CvSection/partials/SkillsSectionContent';
 import WorkExperienceSectionContent from '../src/components-ui/CvSection/partials/WorkExperienceSectionContent';
@@ -20,11 +21,11 @@ import HobbiesSectionContent from '../src/components-ui/CvSection/partials/Hobbi
 
 import { cvData } from '../src/data/cvData';
 
-import styles from '../styles/Cv.module.scss';
-
 const Cv: NextPage = () => {
   return (
     <Page>
+      <CvHeader name="Luigi Quarta" title="Frontend Developer" />
+
       <CvSection title={'Skills'} icon={<BsTools />}>
         <SkillsSectionContent skills={cvData.skills} />
       </CvSection>
