@@ -6,6 +6,11 @@
   justify-content: center;
   align-items: center;
   font-size: small;
+
+  a {
+    color: var(--primaryColor);
+    margin-left: .42rem;
+  }
 }
 
 @media print {
