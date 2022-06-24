@@ -1,9 +1,15 @@
-import '../styles/globals.css';
+import React, {useEffect} from 'react';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
-import React from 'react';
+
+import '../styles/globals.css';
+import {printAppInfo} from "../src/utils/appinfoUtil";
 
 function MyApp({ Component, pageProps }: AppProps) {
+  useEffect(() => {
+    printAppInfo();
+  }, []);
+
   return (
     <>
       <Head>
