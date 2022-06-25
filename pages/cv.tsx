@@ -24,7 +24,7 @@ import { cvData } from '../src/data/cvData';
 const Cv: NextPage = () => {
   return (
     <Page>
-      <CvHeader name="Luigi Quarta" title="Frontend Developer" />
+      <CvHeader name="Luigi Quarta" title="Frontend Engineer" />
 
       <CvSection title={'Skills'} icon={<BsTools />}>
         <SkillsSectionContent skills={cvData.skills} />

@@ -59,7 +59,7 @@ export const cvData: Cv = {
         {
           name: 'Plick',
           sector: 'Fintech',
-          role: 'Frontend developer',
+          role: 'Frontend Engineer',
           technologies: [
             'Next.js',
             'React',
@@ -74,13 +74,13 @@ export const cvData: Cv = {
         {
           name: 'TenutaBene',
           sector: 'Online marketplace',
-          role: 'Frontend developer',
+          role: 'Frontend Engineer',
           technologies: ['React', 'redux', 'redux-saga', 'GraphQL', 'Git'],
         },
         {
           name: 'Periovocal Assistant',
           sector: 'Healthcare',
-          role: 'Frontend developer',
+          role: 'Frontend Engineer',
           technologies: [
             'React Native',
             'redux',
@@ -95,13 +95,13 @@ export const cvData: Cv = {
         {
           name: 'CambioMarcia',
           sector: 'Online marketplace',
-          role: 'Frontend developer',
+          role: 'Frontend Engineer',
           technologies: ['Vue', 'Vuex', 'GraphQL', 'Git'],
         },
         {
           name: 'Ladbrokes Casino',
           sector: 'Gambling',
-          role: 'Frontend developer',
+          role: 'Frontend Engineer',
           technologies: [
             'React Native',
             'redux',
@@ -113,7 +113,7 @@ export const cvData: Cv = {
         {
           name: 'Slot Galline',
           sector: 'Gambling',
-          role: 'Frontend developer',
+          role: 'Frontend Engineer',
           technologies: [
             'React Native',
             'redux',
@@ -125,7 +125,7 @@ export const cvData: Cv = {
         {
           name: 'Bingo',
           sector: 'Gambling',
-          role: 'Frontend developer',
+          role: 'Frontend Engineer',
           technologies: [
             'React Native',
             'redux',
@@ -137,7 +137,7 @@ export const cvData: Cv = {
         {
           name: 'Eurobet Casino Reloaded',
           sector: 'Gambling',
-          role: 'Frontend developer',
+          role: 'Frontend Engineer',
           technologies: [
             'React Native',
             'redux',
@@ -149,7 +149,7 @@ export const cvData: Cv = {
         {
           name: 'Eurobet BoS (Betting on Smartphone)',
           sector: 'Betting',
-          role: 'Frontend developer',
+          role: 'Frontend Engineer',
           technologies: ['AngularJS', 'SASS', 'Gulp', 'Git'],
         },
         {

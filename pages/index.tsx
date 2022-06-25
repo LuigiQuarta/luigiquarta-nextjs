@@ -14,7 +14,7 @@ const Home: NextPage = () => {
         Hello world!
         <br />
         My name is Luigi.
-        <br />I am a Frontend Developer.
+        <br />I am a Frontend Engineer.
       </Jumbotron>
       <div className={styles.social}>
         <SocialIcon
